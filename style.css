@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("/img/new2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.container{
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.heading{
+    margin: 10px 0;
+}
+
+.main-heading{
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.sub-heading{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+
+}
+
+.col-1-of-3{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 50%;
+    height: 130px;
+}
+
+.col-container{
+    margin: 30px 0;
+}
+
+.col-main-heading{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.col-sub-heading{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (min-width: 481px) { 
+    .header{
+        background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("/img/new2.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 130vh;
+        background-position: center;
+    }
+
+    .container{
+        padding: 100px 50px;
+        text-align: center;
+        
+    }
+
+    .img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .main-heading{
+        font-size: 52px;
+        margin-bottom: 30px;
+        color: #ffffff;
+        font-weight: 900;
+    }
+
+    .sub-heading{
+        font-size: 26px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .col-1-of-3{
+        margin: 0 auto;
+        background-color: #fff;
+        width: 80%;
+        height: 140px;
+        
+    }
+
+    .col-main-heading{
+        font-size: 46px;
+        font-weight: 900;
+        margin-top: 2px;
+    }
+
+    .col-sub-heading{
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 100px;
+    }
+
+    .icon{
+        border-radius: 50%;
+        background-color: #fff;
+        border: none;
+    }
+}
+
+/* 769px — 1024px: Small screens, laptops. */
+@media only screen and (min-width: 769px){ 
+    .header{
+        background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("/img/new2.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 120vh;
+        background-position: center;
+    }
+
+    .container{
+        padding: 100px 50px;
+        text-align: center;
+        
+    }
+
+    .img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .main-heading{
+        font-size: 52px;
+        margin-bottom: 30px;
+        color: #ffffff;
+        font-weight: 900;
+    }
+
+    .sub-heading{
+        font-size: 26px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .col-container {
+        text-align: center;
+    }
+    .col-1-of-3{
+        margin: 0 auto;
+        background-color: #fff;
+        width: 60%;
+        height: 140px;
+    }
+
+    .col-main-heading{
+        font-size: 46px;
+        font-weight: 900;
+    }
+
+    .col-sub-heading{
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 100px;
+    }
+
+    .icon{
+        border-radius: 50%;
+        background-color: #fff;
+        border: none;
+    }
+}  
+
+
+/* .....1201px and more — Extra large screens, TV ......*/
+@media only screen and (min-width: 1201px){
+    .header{
+        background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("/img/new2.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .container{
+        padding: 30px 60px;
+        text-align: center;
+        
+    }
+
+    .img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+    }
+
+    .heading{
+        margin: 10px 0;
+    }
+
+    .main-heading{
+        font-size: 52px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-weight: 900;
+    }
+
+    .sub-heading{
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 5px;
+    
+    }
+    
+    .col-1-of-3{
+        margin: 0 auto;
+        background-color: #fff;
+        width: 33%;
+        height: 130px;
+    }
+
+    .col-container{
+        margin: 30px 0;
+    }
+
+    .col-main-heading{
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .col-sub-heading{
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    .icon{
+        border-radius: 50%;
+        background-color: #fff;
+        border: none;
+    }
+}
+
