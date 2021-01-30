@@ -12,7 +12,7 @@ body {
 }
 
 .header{
-    background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("/img/new2.jpg");
+    background-image: linear-gradient(rgba(37, 31, 31, 0.5), rgba(32, 27, 27, 0.5)), url("img/new2.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
